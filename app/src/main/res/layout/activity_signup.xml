@@ -36,7 +36,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/tvName"
         android:layout_width="315dp"
         android:layout_height="42dp"
         android:ems="10"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.193" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/gmail"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:ems="10"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.293" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/phone"
         android:layout_width="320dp"
         android:layout_height="42dp"
         android:ems="10"
@@ -80,7 +80,7 @@
         app:layout_constraintVertical_bias="0.397" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/password"
         android:layout_width="323dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -93,7 +93,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword3"
+        android:id="@+id/cpassword"
         android:layout_width="321dp"
         android:layout_height="39dp"
         android:ems="10"
@@ -195,7 +195,7 @@
         app:layout_constraintVertical_bias="0.553" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnsignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SignUP"
